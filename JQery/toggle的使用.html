@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.8.3.js"></script>
+    <style>
+        div{
+            border: 1px solid white;
+            width: 1300px;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+    <script>
+        $(function() {
+            $("#btn").click(function() {
+                $("#img1").toggle();
+            })
+        })
+    </script>
+</head>
+<body>
+    <div>
+        <img src="img/gg.jpg" id="img1"><br>
+        <input type="button" value="显示,隐藏" id="btn">
+    </div>
+</body>
+</html>
